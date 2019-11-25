@@ -1,0 +1,25 @@
+language: java
+
+addons:
+  chrome: stable
+
+before_install:
+  - pwd
+  - wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - "ls -la"
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 start-maximized http://localhost &
+  - echo $TRAVIS_COMMIT
+  - echo $TRAVIS_TAG
+  - echo $TRAVIS_BRANCH
+  - echo $TRAVIS_BUILD_NUMBER
+  - echo $TRAVIS_REPO_SLUG
+
+cache:
+  directories:
+    - $HOME/.m2
+
+install: true
+
+script:
+  - "mvn verify"
