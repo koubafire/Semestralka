@@ -15,16 +15,16 @@ public class PrihlasovaciTesty {
 
     @Before
     public void init() {
-        //System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
-        //driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+        driver = new ChromeDriver();
         ChromeOptions cho = new ChromeOptions();
         cho.addArguments("--headless");
         cho.addArguments("start-maximized");
         cho.addArguments("window-size=1200,1100");
         cho.addArguments("--disable-gpu");
         cho.addArguments("--disable-extensions");
-        driver = new ChromeDriver(cho);
-        driver.manage().window().maximize();
+        //driver = new ChromeDriver(cho);
+        //driver.manage().window().maximize();
     }
 
     @After
