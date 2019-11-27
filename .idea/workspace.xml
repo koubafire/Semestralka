@@ -11,19 +11,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="409">
               <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -41,6 +49,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProjektoveTesty.java" />
       </list>
     </option>
   </component>
@@ -108,15 +118,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hed\Desktop\Semestralka\src\test\resources" />
       <recent name="C:\Users\Hed\Desktop\Semestralka" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Semestralka4IT478" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,22 +142,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrihlasovaciTesty">
+  <component name="RunManager" selected="JUnit.ProjektoveTesty.projektBezJmena">
     <configuration name="PrihlasovaciTesty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Semestralka" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrihlasovaciTesty.invalidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Semestralka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
-      <option name="METHOD_NAME" value="invalidLogin" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,10 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrihlasovaciTesty.uspesnePrihlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjektoveTesty.projektBezJmena" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Semestralka" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
+      <option name="MAIN_CLASS_NAME" value="ProjektoveTesty" />
+      <option name="METHOD_NAME" value="projektBezJmena" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjektoveTesty.uspesnePrihlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Semestralka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProjektoveTesty" />
       <option name="METHOD_NAME" value="uspesnePrihlaseni" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -183,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjektoveTesty.projektBezJmena" />
+        <item itemvalue="JUnit.ProjektoveTesty.uspesnePrihlaseni" />
         <item itemvalue="JUnit.PrihlasovaciTesty" />
         <item itemvalue="JUnit.PrihlasovaciTesty.odhlaseni" />
         <item itemvalue="JUnit.PrihlasovaciTesty.neuspesnePrihlaseni" />
-        <item itemvalue="JUnit.PrihlasovaciTesty.uspesnePrihlaseni" />
-        <item itemvalue="JUnit.PrihlasovaciTesty.invalidLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -205,15 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrihlasovaciTesty_validLogin - 2019.11.25 at 19h 15m 33s.xml">
-      <configuration name="PrihlasovaciTesty.validLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_validLogin - 2019.11.25 at 19h 19m 03s.xml">
-      <configuration name="PrihlasovaciTesty.validLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_invalidLogin - 2019.11.25 at 19h 19m 36s.xml">
-      <configuration name="PrihlasovaciTesty.invalidLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrihlasovaciTesty_uspesnePrihlaseni - 2019.11.25 at 19h 23m 23s.xml">
       <configuration name="PrihlasovaciTesty.uspesnePrihlaseni" configurationId="JUnit" />
     </history-entry>
@@ -235,11 +237,21 @@
     <history-entry file="PrihlasovaciTesty - 2019.11.25 at 23h 58m 43s.xml">
       <configuration name="PrihlasovaciTesty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProjektoveTesty_uspesnePrihlaseni - 2019.11.27 at 00h 50m 15s.xml">
+      <configuration name="ProjektoveTesty.uspesnePrihlaseni" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 10m 12s.xml">
+      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 11m 40s.xml">
+      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09340223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1904376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3320251" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,10 +283,20 @@
     <entry file="file://$PROJECT_DIR$/Semestralka.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -285,20 +307,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="409">
           <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
