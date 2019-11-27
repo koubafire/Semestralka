@@ -19,16 +19,16 @@ public class ProjektoveTesty {
 
     @Before
     public void init() {
-        //System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
-        //driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+        driver = new ChromeDriver();
         ChromeOptions cho = new ChromeOptions();
         cho.addArguments("--headless");
         cho.addArguments("start-maximized");
         cho.addArguments("window-size=1200,1100");
         cho.addArguments("--disable-gpu");
         cho.addArguments("--disable-extensions");
-        driver = new ChromeDriver(cho);
-        driver.manage().window().maximize();
+        //driver = new ChromeDriver(cho);
+        //driver.manage().window().maximize();
     }
 
     @After
@@ -38,36 +38,18 @@ public class ProjektoveTesty {
 
 
     /**
-     * Metoda similuje čekání
-     */
-    public void cekejClassName(int delka,String predmet)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, delka);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(predmet)));
-    }
-
-    public void cekejCssSelector(int delka,String predmet)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, delka);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(predmet)));
-    }
-
-    /**
      * Testování vytvoření nového projektu beze jména
      * Nesmí se vytvořit
      */
     @Test
     public void projektBezJmena() {
         //Given
-        driver.get(adresa);
-        driver.findElement(By.name("username")).sendKeys("rukovoditel");
-        driver.findElement(By.name("password")).sendKeys("vse456ru");
-        driver.findElement(By.cssSelector(".btn")).click();
+        TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
 
         //When
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
         driver.findElement(By.className("btn-primary")).click();
-        cekejClassName(2,"btn-primary-modal-action");
+        TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
         driver.findElement(By.className("btn-primary-modal-action")).click();
 
         //Then
@@ -80,15 +62,12 @@ public class ProjektoveTesty {
     @Test
     public void uspesneVytvoreniProjektu() {
         //Given
-        driver.get(adresa);
-        driver.findElement(By.name("username")).sendKeys("rukovoditel");
-        driver.findElement(By.name("password")).sendKeys("vse456ru");
-        driver.findElement(By.cssSelector(".btn")).click();
+        TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
 
         //When
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
         driver.findElement(By.className("btn-primary")).click();
-        cekejClassName(2,"btn-primary-modal-action");
+        TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
         driver.findElement(By.id("fields_158")).sendKeys("kouba");
         Select select = new Select(driver.findElement(By.id("fields_156")));
         select.selectByIndex(1);
@@ -98,7 +77,7 @@ public class ProjektoveTesty {
 
         //Then
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
-        cekejCssSelector(3,"[class='table table-striped table-bordered table-hover'] tr");
+        TestovaciMetody.cekejCssSelector(3,"[class='table table-striped table-bordered table-hover'] tr",driver);
         List<WebElement> tabulka = driver.findElements(By.cssSelector("[class='table table-striped table-bordered table-hover'] tr"));
         tabulka.remove(0);
         WebElement radek = null;
@@ -114,7 +93,7 @@ public class ProjektoveTesty {
             }
         }
         Assert.assertTrue(radek != null);
-        cekejClassName(2,"btn-primary-modal-action");
+        TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
         driver.findElement(By.className("btn-primary-modal-action")).click();
         tabulka = driver.findElements(By.cssSelector("[class='table table-striped table-bordered table-hover'] tr"));
         Assert.assertTrue(!tabulka.contains(radek));

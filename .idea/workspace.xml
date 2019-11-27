@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="-601">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="541">
+              <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
               <folding>
                 <element signature="e#1182#1183#0" expanded="true" />
                 <element signature="e#1212#1213#0" expanded="true" />
@@ -40,7 +40,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java" />
         <option value="$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestovaciMetody.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProjektoveTesty.java" />
       </list>
     </option>
@@ -146,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu">
+  <component name="RunManager" selected="JUnit.ProjektoveTesty.projektBezJmena">
     <configuration name="PrihlasovaciTesty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Semestralka" />
       <option name="PACKAGE_NAME" value="" />
@@ -198,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu" />
         <item itemvalue="JUnit.ProjektoveTesty.projektBezJmena" />
+        <item itemvalue="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu" />
         <item itemvalue="JUnit.ProjektoveTesty.uspesnePrihlaseni" />
         <item itemvalue="JUnit.PrihlasovaciTesty" />
         <item itemvalue="JUnit.PrihlasovaciTesty.odhlaseni" />
@@ -220,12 +240,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 10m 12s.xml">
-      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 11m 40s.xml">
-      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 29m 13s.xml">
       <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
     </history-entry>
@@ -250,12 +264,18 @@
     <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 44m 47s.xml">
       <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 53m 54s.xml">
+      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 54m 20s.xml">
+      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1904376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2439222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,7 +284,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,8 +333,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="-601">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -323,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="541">
+          <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
           <folding>
             <element signature="e#1182#1183#0" expanded="true" />
             <element signature="e#1212#1213#0" expanded="true" />
