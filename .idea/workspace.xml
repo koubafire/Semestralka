@@ -30,8 +30,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="-527">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,22 +146,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjektoveTesty.projektBezJmena">
+  <component name="RunManager" selected="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu">
     <configuration name="PrihlasovaciTesty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Semestralka" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrihlasovaciTesty.neuspesnePrihlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Semestralka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
-      <option name="METHOD_NAME" value="neuspesnePrihlaseni" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,13 +186,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Semestralka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProjektoveTesty" />
+      <option name="METHOD_NAME" value="uspesneVytvoreniProjektu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu" />
         <item itemvalue="JUnit.ProjektoveTesty.projektBezJmena" />
         <item itemvalue="JUnit.ProjektoveTesty.uspesnePrihlaseni" />
         <item itemvalue="JUnit.PrihlasovaciTesty" />
         <item itemvalue="JUnit.PrihlasovaciTesty.odhlaseni" />
-        <item itemvalue="JUnit.PrihlasovaciTesty.neuspesnePrihlaseni" />
       </list>
     </recent_temporary>
   </component>
@@ -216,35 +220,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrihlasovaciTesty_uspesnePrihlaseni - 2019.11.25 at 19h 23m 23s.xml">
-      <configuration name="PrihlasovaciTesty.uspesnePrihlaseni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_neuspesnePrihlaseni - 2019.11.25 at 19h 25m 33s.xml">
-      <configuration name="PrihlasovaciTesty.neuspesnePrihlaseni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_odhlaseni - 2019.11.25 at 23h 50m 36s.xml">
-      <configuration name="PrihlasovaciTesty.odhlaseni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_odhlaseni - 2019.11.25 at 23h 53m 59s.xml">
-      <configuration name="PrihlasovaciTesty.odhlaseni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty_odhlaseni - 2019.11.25 at 23h 55m 04s.xml">
-      <configuration name="PrihlasovaciTesty.odhlaseni" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty - 2019.11.25 at 23h 58m 18s.xml">
-      <configuration name="PrihlasovaciTesty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrihlasovaciTesty - 2019.11.25 at 23h 58m 43s.xml">
-      <configuration name="PrihlasovaciTesty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjektoveTesty_uspesnePrihlaseni - 2019.11.27 at 00h 50m 15s.xml">
-      <configuration name="ProjektoveTesty.uspesnePrihlaseni" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 10m 12s.xml">
       <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 11m 40s.xml">
       <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 29m 13s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 30m 29s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 31m 13s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 36m 55s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 38m 14s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 40m 35s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 43m 54s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 44m 47s.xml">
+      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -261,7 +265,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,8 +323,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="-527">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
