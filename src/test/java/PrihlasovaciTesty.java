@@ -70,10 +70,7 @@ public class PrihlasovaciTesty {
     @Test
     public void odhlaseni() {
         //Given - přihlášení
-        driver.get(adresa);
-        driver.findElement(By.name("username")).sendKeys("rukovoditel");
-        driver.findElement(By.name("password")).sendKeys("vse456ru");
-        driver.findElement(By.cssSelector(".btn")).click();
+        TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
 
         //When - kliknutí na odhlášení
         // Nejprve dvojklik aby se zobrazilo postraní menu

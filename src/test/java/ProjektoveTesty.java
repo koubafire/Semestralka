@@ -65,15 +65,7 @@ public class ProjektoveTesty {
         TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
 
         //When
-        driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
-        driver.findElement(By.className("btn-primary")).click();
-        TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
-        driver.findElement(By.id("fields_158")).sendKeys("kouba");
-        Select select = new Select(driver.findElement(By.id("fields_156")));
-        select.selectByIndex(1);
-        driver.findElement(By.cssSelector(".fa-calendar")).click();
-        driver.findElement(By.cssSelector("tr > .active")).click();
-        driver.findElement(By.className("btn-primary-modal-action")).click();
+        TestovaciMetody.novyProjekt("kouba",driver);
 
         //Then
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
