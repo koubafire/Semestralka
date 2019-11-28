@@ -1,4 +1,4 @@
-package Semestralka4IT478;
+package Semestralka;
 
 /**
  * Hello world!

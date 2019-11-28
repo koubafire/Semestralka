@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="918">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state relative-caret-position="153">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="e#1225#1226#0" expanded="true" />
                 <element signature="e#1254#1255#0" expanded="true" />
@@ -50,6 +50,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -82,12 +91,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProjektoveTesty.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestovaciMetody.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java" />
         <option value="$PROJECT_DIR$/src/test/java/TaskoveTesty.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -107,42 +116,50 @@
         <subPane>
           <expand>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Semestralka4IT478" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
               <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -157,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -335,15 +352,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka/App.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -372,7 +382,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
@@ -383,12 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state relative-caret-position="153">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="e#1225#1226#0" expanded="true" />
             <element signature="e#1254#1255#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
