@@ -18,8 +18,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="918">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+              <folding>
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,33 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-              <folding>
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="833">
+              <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -80,15 +82,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestovaciMetody.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProjektoveTesty.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestovaciMetody.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TaskoveTesty.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -97,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,16 +162,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test\resources" />
-      <recent name="C:\Users\Hed\Desktop\Semestralka" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="Semestralka4IT478" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hed\Desktop\Semestralka\src\test\resources" />
+      <recent name="C:\Users\Hed\Desktop\Semestralka" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -182,40 +186,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu">
-    <configuration name="PrihlasovaciTesty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaskoveTesty.viceroTasku">
+    <configuration name="PrihlasovaciTesty.uspesnePrihlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Semestralka" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrihlasovaciTesty.odhlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Semestralka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrihlasovaciTesty" />
-      <option name="METHOD_NAME" value="odhlaseni" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjektoveTesty.projektBezJmena" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Semestralka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProjektoveTesty" />
-      <option name="METHOD_NAME" value="projektBezJmena" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjektoveTesty.uspesnePrihlaseni" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Semestralka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProjektoveTesty" />
       <option name="METHOD_NAME" value="uspesnePrihlaseni" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -232,13 +207,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskoveTesty.sevenTasksCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Semestralka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskoveTesty" />
+      <option name="METHOD_NAME" value="sevenTasksCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskoveTesty.taskCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Semestralka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskoveTesty" />
+      <option name="METHOD_NAME" value="taskCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskoveTesty.viceroTasku" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Semestralka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskoveTesty" />
+      <option name="METHOD_NAME" value="viceroTasku" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskoveTesty.viceroTasku" />
+        <item itemvalue="JUnit.TaskoveTesty.sevenTasksCreated" />
+        <item itemvalue="JUnit.TaskoveTesty.taskCreated" />
+        <item itemvalue="JUnit.PrihlasovaciTesty.uspesnePrihlaseni" />
         <item itemvalue="JUnit.ProjektoveTesty.uspesneVytvoreniProjektu" />
-        <item itemvalue="JUnit.ProjektoveTesty.projektBezJmena" />
-        <item itemvalue="JUnit.ProjektoveTesty.uspesnePrihlaseni" />
-        <item itemvalue="JUnit.PrihlasovaciTesty" />
-        <item itemvalue="JUnit.PrihlasovaciTesty.odhlaseni" />
       </list>
     </recent_temporary>
   </component>
@@ -256,42 +261,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 31m 13s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_taskCreated - 2019.11.28 at 19h 38m 12s.xml">
+      <configuration name="TaskoveTesty.taskCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 36m 55s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_taskCreated - 2019.11.28 at 19h 43m 02s.xml">
+      <configuration name="TaskoveTesty.taskCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 38m 14s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_taskCreated - 2019.11.28 at 19h 44m 09s.xml">
+      <configuration name="TaskoveTesty.taskCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 40m 35s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_taskCreated - 2019.11.28 at 19h 48m 11s.xml">
+      <configuration name="TaskoveTesty.taskCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 43m 54s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_sevenTasksCreated - 2019.11.28 at 20h 48m 06s.xml">
+      <configuration name="TaskoveTesty.sevenTasksCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 01h 44m 47s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_sevenTasksCreated - 2019.11.29 at 00h 29m 16s.xml">
+      <configuration name="TaskoveTesty.sevenTasksCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 53m 54s.xml">
-      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_sevenTasksCreated - 2019.11.29 at 00h 32m 01s.xml">
+      <configuration name="TaskoveTesty.sevenTasksCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_projektBezJmena - 2019.11.27 at 01h 54m 20s.xml">
-      <configuration name="ProjektoveTesty.projektBezJmena" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_viceroTasku - 2019.11.29 at 00h 38m 56s.xml">
+      <configuration name="TaskoveTesty.viceroTasku" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 02h 03m 15s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_viceroTasku - 2019.11.29 at 00h 41m 07s.xml">
+      <configuration name="TaskoveTesty.viceroTasku" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProjektoveTesty_uspesneVytvoreniProjektu - 2019.11.27 at 02h 04m 17s.xml">
-      <configuration name="ProjektoveTesty.uspesneVytvoreniProjektu" configurationId="JUnit" />
+    <history-entry file="TaskoveTesty_viceroTasku - 2019.11.29 at 00h 45m 58s.xml">
+      <configuration name="TaskoveTesty.viceroTasku" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2439222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09340223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3320251" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14653157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,13 +338,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka4IT478/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -347,33 +345,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="1258">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,7 +14,6 @@ import java.util.List;
 
 
 public class ProjektoveTesty {
-    private final static String adresa = "https://digitalnizena.cz/rukovoditel/";
     private ChromeDriver driver;
 
     @Before
@@ -44,14 +43,12 @@ public class ProjektoveTesty {
     @Test
     public void projektBezJmena() {
         //Given
-        TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
-
+        TestovaciMetody.prihlaseni("rukovoditel","vse456ru",driver);
         //When
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
         driver.findElement(By.className("btn-primary")).click();
         TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
         driver.findElement(By.className("btn-primary-modal-action")).click();
-
         //Then
         Assert.assertTrue(driver.findElement(By.id("fields_158-error")).isDisplayed());
     }
@@ -62,32 +59,30 @@ public class ProjektoveTesty {
     @Test
     public void uspesneVytvoreniProjektu() {
         //Given
-        TestovaciMetody.prihlaseni(adresa,"rukovoditel","vse456ru",driver);
-
+        TestovaciMetody.prihlaseni("rukovoditel","vse456ru",driver);
         //When
         TestovaciMetody.novyProjekt("kouba",driver);
-
         //Then
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
         TestovaciMetody.cekejCssSelector(3,"[class='table table-striped table-bordered table-hover'] tr",driver);
         List<WebElement> tabulka = driver.findElements(By.cssSelector("[class='table table-striped table-bordered table-hover'] tr"));
         tabulka.remove(0);
-        WebElement radek = null;
+        WebElement element = null;
         for (WebElement row : tabulka)
         {
             List<WebElement> bunka = row.findElements(By.tagName("td"));
             if (bunka.get(4).getText().equals("kouba"))
             {
-                radek = row;
+                element = row;
                 List<WebElement> buttony = row.findElements(By.tagName("a"));
                 buttony.get(0).click();
                 break;
             }
         }
-        Assert.assertTrue(radek != null);
+        Assert.assertTrue(element != null);
         TestovaciMetody.cekejClassName(2,"btn-primary-modal-action",driver);
         driver.findElement(By.className("btn-primary-modal-action")).click();
         tabulka = driver.findElements(By.cssSelector("[class='table table-striped table-bordered table-hover'] tr"));
-        Assert.assertTrue(!tabulka.contains(radek));
+        Assert.assertTrue(!tabulka.contains(element));
     }
 }
