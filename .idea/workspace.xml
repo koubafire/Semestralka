@@ -22,8 +22,6 @@
               <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="187">
               <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="e#1225#1226#0" expanded="true" />
@@ -45,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
+            <state relative-caret-position="1201">
               <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="102" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -76,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -137,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,10 +188,20 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Semestralka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Semestralka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,10 +343,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1904376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09499205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,26 +375,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Semestralka.iml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TaskoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="187">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="e#1225#1226#0" expanded="true" />
@@ -400,22 +390,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Semestralka/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Semestralka.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProjektoveTesty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -426,17 +415,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestovaciMetody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="1201">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrihlasovaciTesty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="102" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
