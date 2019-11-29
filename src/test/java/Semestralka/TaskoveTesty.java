@@ -1,4 +1,4 @@
-package cz.vse.selenium;
+package Semestralka;
 
 import org.junit.After;
 import org.junit.Assert;
