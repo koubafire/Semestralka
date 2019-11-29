@@ -1,4 +1,4 @@
-package Semestralka;
+package cz.vse.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -35,7 +35,7 @@ public class TestovaciMetody
     /**
      * Metoda similuje čekání podle CssSelektoru
      */
-    public static  void cekejCssSelector(int delka,String predmet, ChromeDriver driver)
+    public static  void cekejCssSelector(int delka, String predmet, ChromeDriver driver)
     {
         WebDriverWait wait = new WebDriverWait(driver, delka);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(predmet)));
@@ -43,7 +43,7 @@ public class TestovaciMetody
     /**
      * Metoda similuje čekání podle linktextu
      */
-    public static  void cekejLinkText(int delka,String predmet, ChromeDriver driver)
+    public static  void cekejLinkText(int delka, String predmet, ChromeDriver driver)
     {
         WebDriverWait wait = new WebDriverWait(driver, delka);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(predmet)));
@@ -51,7 +51,7 @@ public class TestovaciMetody
     /**
      * Metoda přihlašuje
      */
-    public static void prihlaseni(String user,String pass, ChromeDriver driver)
+    public static void prihlaseni(String user, String pass, ChromeDriver driver)
     {
         driver.get(adresa);
         driver.findElement(By.name("username")).sendKeys(user);
@@ -61,7 +61,7 @@ public class TestovaciMetody
     /**
      * Metoda vytvoři novy projekt
      */
-    public static void novyProjekt(String nazev,ChromeDriver driver)
+    public static void novyProjekt(String nazev, ChromeDriver driver)
     {
         driver.findElement(By.cssSelector("li:nth-child(4) .title:nth-child(2)")).click();
         driver.findElement(By.className("btn-primary")).click();

@@ -1,4 +1,4 @@
-package Semestralka;
+package cz.vse.selenium;
 
 /**
  * Hello world!
